@@ -1,6 +1,10 @@
 /* font-family: 'DM Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Syne', sans-serif; */
+.main h1,
+.main p {
+	margin: 0;
+}
 
 /* Шапка */
 .main {
@@ -90,4 +94,91 @@ font-family: 'Syne', sans-serif; */
 .svg-item {
 	position: absolute;
 	top: 166px;
+}
+
+/* Главная */
+.major {
+	background-image: url(../img/background-image.png);
+	background-position: bottom;
+	background-size: cover;
+	height: 746px;
+}
+
+.major__container {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cube-image {
+	height: 600px;
+	position: relative;
+	top: -20px;
+	right: -50px;
+}
+
+.major__left {
+	padding-top: 130px;
+	padding-bottom: 240px;
+}
+
+.major__new {
+	display: block;
+	margin-bottom: 15px;
+	color: #FEB109;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	text-transform: capitalize;
+}
+
+.major .major__title {
+	margin-bottom: 40px;
+	max-width: 600px;
+	font-family: Syne;
+	font-size: 43px;
+	font-weight: 700;
+	line-height: 60px;
+	text-transform: uppercase;
+	color: #E9EEF4;
+	text-shadow: 5px 0 rgba(0, 0, 0, 0.13), -5px 0 rgba(0, 0, 0, 0.13), 0 5px rgba(0, 0, 0, 0.13), 0 -5px rgba(0, 0, 0, 0.13),
+		1px 1px rgba(0, 0, 0, 0.13), -1px -1px rgba(0, 0, 0, 0.13), 1px -1px rgba(0, 0, 0, 0.13), -1px 1px rgba(0, 0, 0, 0.13);
+}
+
+.major .major__description {
+	margin-bottom: 50px;
+	max-width: 570px;
+	color: rgba(237, 237, 237, 1);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.major__left-bot {
+	display: flex;
+	align-items: center;
+}
+
+.major__button {
+	margin-right: 30px;
+}
+
+.pause {
+	margin-right: 15px;
+	position: relative;
+	top: 10px;
+}
+
+.major__link {
+	text-decoration: none;
+	color: #E9EEF4;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.cube-image {
+	position: absolute;
+	height: 737px;
+	right: -60px;
 }
